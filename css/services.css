@@ -1,0 +1,42 @@
+@import url("about.css");
+
+
+/* ==========Services============ */
+
+.Services{
+    padding: 80px 0;
+}
+.test{
+    border: 1px solid #d5d5d5;
+}
+.icon{
+    position: relative;
+    color: rgba(0, 0, 0, 0.327);
+    background-color: transparent;
+}
+.icon i{
+    font-size: 60px;
+}
+.icon .count{ 
+    position: absolute;
+    top: -40px;
+    left: 30px;
+    background-color: #fdd8a1;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+.text-icon{
+    padding: 10px 8px;
+}
+.text-icon h3{
+    font-size: 22px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 10px;
+}
+.text-icon p{
+    font-size: 18px;
+    color: #00000095;
+}
