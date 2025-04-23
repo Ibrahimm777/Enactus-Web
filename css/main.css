@@ -218,3 +218,31 @@ footer{
 .footer-last a:hover{
     color: #ffc220;
 }
+
+/* ==========join============ */
+
+.btn-join {
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    right: 20px;
+    bottom: 20px;
+    padding: 10px 20px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px #252525a5;
+    font-size: 18px;
+    font-weight: 600;
+    z-index: 5;
+    transition: all 0.5s;
+}
+.btn-join a{
+    text-decoration: none;
+    color: #ffc220;
+    transition: all 0.5s;
+}
+.btn-join:hover{
+    background-color: #ffc220;
+}
+.btn-join:hover a{
+    color: #fff;
+}
